@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SO BEAUTY | Лазерна епіляція та косметологія</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; color: #334155; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .bg-brand-grey { background-color: #707A84; } /* Колір з логотипу */
+        .text-brand-grey { color: #707A84; }
+        .border-brand-grey { border-color: #707A84; }
+    </style>
+</head>
+<body class="bg-slate-50/50">
+
+    <!-- Навігація -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 border border-brand-grey rounded-full flex items-center justify-center font-bold text-brand-grey text-xs">SB</div>
+                <span class="text-xl font-semibold tracking-tighter uppercase text-slate-800">SO BEAUTY</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-widest font-medium">
+                <a href="#services" class="hover:text-brand-grey transition">Послуги</a>
+                <a href="#benefits" class="hover:text-brand-grey transition">Переваги</a>
+                <a href="#contacts" class="hover:text-brand-grey transition">Контакти</a>
+            </nav>
+            <a href="tel:+380000000000" class="hidden sm:block border border-brand-grey px-5 py-2 text-xs font-bold uppercase tracking-widest hover:bg-brand-grey hover:text-white transition">
+                Записатись
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Блок -->
+    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1570172619382-1104d7159ad2?auto=format&fit=crop&q=80&w=2000" alt="Cosmetology background" class="w-full h-full object-cover opacity-30">
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-2xl">
+                <span class="inline-block px-3 py-1 bg-brand-grey/10 text-brand-grey text-xs font-bold tracking-[0.2em] uppercase mb-6">Професійний догляд</span>
+                <h1 class="text-5xl md:text-7xl font-serif text-slate-900 leading-tight mb-6">
+                    Ваша краса — наша <span class="italic text-brand-grey">професія</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed font-light">
+                    Сучасні методики лазерної епіляції та естетичної косметології для вашої ідеальної шкіри в атмосфері турботи та комфорту.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#services" class="bg-brand-grey text-white px-10 py-5 text-center font-semibold uppercase tracking-widest hover:bg-slate-800 transition shadow-lg shadow-brand-grey/20">
+                        Наші послуги
+                    </a>
+                    <a href="#contacts" class="bg-white border border-slate-200 px-10 py-5 text-center font-semibold uppercase tracking-widest hover:border-brand-grey transition">
+                        Консультація
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Послуги -->
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-serif text-slate-900 mb-4">Напрямки догляду</h2>
+                <div class="w-16 h-0.5 bg-brand-grey mx-auto opacity-50"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Послуга 1 -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden aspect-[3/4] mb-6">
+                        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800" alt="Laser hair removal" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-brand-grey/10 group-hover:bg-transparent transition duration-500"></div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 uppercase tracking-wide">Лазерна епіляція</h3>
+                    <p class="text-slate-500 font-light italic mb-4 tracking-wider uppercase text-xs">Laser & Cosmetology</p>
+                    <p class="text-slate-600 leading-relaxed mb-4">Безболісне та ефективне видалення небажаного волосся на сучасному діодному лазері.</p>
+                </div>
+
+                <!-- Послуга 2 -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden aspect-[3/4] mb-6">
+                        <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800" alt="Facial treatments" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-brand-grey/10 group-hover:bg-transparent transition duration-500"></div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 uppercase tracking-wide">Чистки та пілінги</h3>
+                    <p class="text-slate-500 font-light italic mb-4 tracking-wider uppercase text-xs">Professional care</p>
+                    <p class="text-slate-600 leading-relaxed mb-4">Глибоке очищення та відновлення сяйва шкіри обличчя за допомогою професійної косметики.</p>
+                </div>
+
+                <!-- Послуга 3 -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden aspect-[3/4] mb-6">
+                        <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&q=80&w=800" alt="Injections" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-brand-grey/10 group-hover:bg-transparent transition duration-500"></div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 uppercase tracking-wide">Ін'єкційна косметологія</h3>
+                    <p class="text-slate-500 font-light italic mb-4 tracking-wider uppercase text-xs">Anti-age therapy</p>
+                    <p class="text-slate-600 leading-relaxed mb-4">Корекція зморшок, біоревіталізація та контурна пластика губ від досвідчених фахівців.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок Переваг -->
+    <section id="benefits" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1000" alt="Clinic interior" class="rounded-2xl shadow-2xl relative z-10">
+                    <div class="absolute -top-10 -left-10 w-64 h-64 bg-brand-grey opacity-10 rounded-full blur-3xl"></div>
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-5xl font-serif text-slate-900 mb-8 leading-tight">Чому обирають <br><span class="text-brand-grey italic italic">SO BEAUTY?</span></h2>
+                    <div class="space-y-8">
+                        <div class="flex gap-4">
+                            <span class="text-brand-grey font-serif text-2xl italic">01</span>
+                            <div>
+                                <h4 class="font-bold uppercase tracking-widest text-sm mb-2">Обладнання Premium-класу</h4>
+                                <p class="text-slate-600 font-light">Використовуємо лише сертифіковані лазери та апарати останнього покоління.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="text-brand-grey font-serif text-2xl italic">02</span>
+                            <div>
+                                <h4 class="font-bold uppercase tracking-widest text-sm mb-2">Медична освіта</h4>
+                                <p class="text-slate-600 font-light">Всі наші майстри мають медичну освіту та регулярну підвищують кваліфікацію.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="text-brand-grey font-serif text-2xl italic">03</span>
+                            <div>
+                                <h4 class="font-bold uppercase tracking-widest text-sm mb-2">Індивідуальні протоколи</h4>
+                                <p class="text-slate-600 font-light">Ми не працюємо за шаблоном. Кожна процедура підбирається під ваш тип шкіри.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Блок -->
+    <section class="py-20 bg-brand-grey text-white text-center">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-serif mb-6 leading-tight">Зробіть крок до ідеальної шкіри вже сьогодні</h2>
+                <p class="text-slate-200 mb-10 font-light">Отримайте безкоштовну консультацію косметолога при першому візиті.</p>
+                <form class="flex flex-col sm:flex-row gap-3">
+                    <input type="tel" placeholder="+380" class="flex-grow px-6 py-4 bg-white/10 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:bg-white focus:text-slate-900 transition rounded-none">
+                    <button class="bg-white text-brand-grey px-10 py-4 font-bold uppercase tracking-widest hover:bg-slate-900 hover:text-white transition shadow-xl">
+                        Передзвоніть мені
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакти -->
+    <footer id="contacts" class="py-24 bg-white border-t border-slate-100">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-8 h-8 border border-brand-grey rounded-full flex items-center justify-center font-bold text-brand-grey text-[10px]">SB</div>
+                        <span class="font-bold tracking-tighter uppercase">SO BEAUTY</span>
+                    </div>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                        Ваш простір краси та впевненості. Ми створюємо результати, які надихають.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold uppercase tracking-widest text-xs mb-6">Графік роботи</h4>
+                    <p class="text-slate-600 text-sm">Пн – Сб: 09:00 — 20:00</p>
+                    <p class="text-slate-600 text-sm">Нд: за домовленістю</p>
+                </div>
+                <div>
+                    <h4 class="font-bold uppercase tracking-widest text-xs mb-6">Адреса</h4>
+                    <p class="text-slate-600 text-sm mb-2">м. Київ, вул. Центральна, 12</p>
+                    <a href="tel:+380000000000" class="text-slate-600 text-sm block mb-2 hover:text-brand-grey tracking-wider">+38 (000) 000-00-00</a>
+                </div>
+                <div>
+                    <h4 class="font-bold uppercase tracking-widest text-xs mb-6">Соцмережі</h4>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 border border-slate-200 flex items-center justify-center hover:border-brand-grey transition text-slate-400 hover:text-brand-grey uppercase text-[10px] font-bold">Inst</a>
+                        <a href="#" class="w-10 h-10 border border-slate-200 flex items-center justify-center hover:border-brand-grey transition text-slate-400 hover:text-brand-grey uppercase text-[10px] font-bold">Fb</a>
+                        <a href="#" class="w-10 h-10 border border-slate-200 flex items-center justify-center hover:border-brand-grey transition text-slate-400 hover:text-brand-grey uppercase text-[10px] font-bold">Tg</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 pt-8 border-t border-slate-100 text-center text-[10px] text-slate-400 uppercase tracking-[0.2em]">
+                &copy; 2024 SO BEAUTY laser & cosmetology. Всі права захищені.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
